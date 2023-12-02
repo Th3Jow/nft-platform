@@ -5,11 +5,17 @@ This [Next.js](https://nextjs.org/) project was developed for the Cryptocurrenci
 The project is a NFT Minter and NFT Explorer using Goerli Testnet and [Metamask Wallet](https://metamask.io/). Some tools used for this Web3 dApp was:
 
 - Typescript + NextJS
-- Material UI
-- Pinata
-- Moralis
-- Alchemy
-- Wagmi
+- Material UI (Google's Material Design for React)
+- Pinata (Upload files to IPFS)
+- Moralis (Web3 APIs)
+- Alchemy (Web3 APIs)
+- Wagmi (React Hooks for Ethereum)
+
+## Smart Contract
+
+The smart contract is located at [nftMinter.sol](contracts/nftMinter.sol) file.
+
+The contract has the function of mint NFTs using [OpenZeppelin](https://www.openzeppelin.com/) ERC721URIStorage and Counter.
 
 ## Getting Started
 
