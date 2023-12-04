@@ -2,8 +2,9 @@
 
 This [Next.js](https://nextjs.org/) project was developed for the Cryptocurrencies and Blockchain course, whose objective is to work with Tokenomics and Smart Contracts.
 
-The project is a NFT Minter and NFT Explorer using Goerli Testnet and [Metamask Wallet](https://metamask.io/). Some tools used for this Web3 dApp was:
+The project is a NFT Minter and NFT Explorer using **Goerli Testnet** and [Metamask Wallet](https://metamask.io/). Some tools used for this Web3 dApp was:
 
+- NodeJS 18.7.0
 - Typescript + NextJS
 - Material UI (Google's Material Design for React)
 - Pinata (Upload files to IPFS)
@@ -16,6 +17,8 @@ The project is a NFT Minter and NFT Explorer using Goerli Testnet and [Metamask 
 The smart contract is located at [nftMinter.sol](contracts/nftMinter.sol) file.
 
 The contract has the function of mint NFTs using [OpenZeppelin](https://www.openzeppelin.com/) ERC721URIStorage and Counter.
+
+The contract was deployed at [Remix IDE](https://remix.ethereum.org) using Injected Provider - Metamask and **Goerli Testnet**.
 
 ## Getting Started
 
